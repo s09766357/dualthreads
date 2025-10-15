@@ -1,54 +1,62 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>データ削除手順 | {{APP_NAME}}</title>
+  <title>Data Deletion | DualThreads</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="{{APP_NAME}} におけるユーザーデータ削除手順のご案内。" />
+  <meta name="description" content="How to request deletion of your data processed by DualThreads." />
   <style>
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:860px;margin:40px auto;padding:0 16px;line-height:1.7;}
     h1,h2{line-height:1.3}
     .meta{font-size:.95em;color:#444}
     ol{padding-left:1.1em}
-    hr{margin:28px 0}
+    a{word-break:break-all}
   </style>
 </head>
 <body>
-  <h1>ユーザーデータ削除手順</h1>
+  <h1>Data Deletion Instructions</h1>
   <p class="meta">
-    アプリ名：<strong>{{APP_NAME}}</strong><br/>
-    連絡先：<a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a><br/>
-    改定日：<time datetime="2025-10-15">2025年10月15日</time>
+    App: <strong>DualThreads</strong><br/>
+    Contact: <a href="mailto:affi_tanmatsu_52@icloud.com">affi_tanmatsu_52@icloud.com</a><br/>
+    Last updated: <time datetime="2025-10-15">October 15, 2025</time>
   </p>
 
-  <h2>1. 対象となるデータ</h2>
-  <p>本アプリが保持する Threads 関連のデータ（投稿/返信のID・本文・タイムスタンプ・インサイト指標・OAuthトークン・運用ログ・スプレッドシート上の運用データ 等）。</p>
+  <h2>1. Scope of Deletion</h2>
+  <p>
+    These instructions cover data the App controls in relation to Meta Threads, including post/reply IDs and text, timestamps, insights/metrics, OAuth tokens, operational logs, and operational data stored in connected tools (e.g., Google Sheets).
+  </p>
 
-  <h2>2. 削除依頼の方法</h2>
+  <h2>2. How to Request Deletion</h2>
   <ol>
-    <li>以下の情報を記載のうえ、<a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a> 宛にメールしてください。<br/>
-      ・件名：データ削除依頼<br/>
-      ・Threads ユーザー名またはユーザーID<br/>
-      ・削除を希望する範囲（例：全データ／特定期間／特定投稿 等）<br/>
-      ・ご本人確認のための連絡先（差戻し用）</li>
-    <li>当方にて本人性を確認でき次第、削除処理を開始します。</li>
+    <li>Send an email to <a href="mailto:affi_tanmatsu_52@icloud.com">affi_tanmatsu_52@icloud.com</a> with the subject “Data Deletion Request”.</li>
+    <li>Include:
+      <ul>
+        <li>Your Threads username or user ID;</li>
+        <li>The scope of deletion (e.g., all data, a date range, specific posts);</li>
+        <li>A reply-to contact for verification purposes.</li>
+      </ul>
+    </li>
+    <li>After verifying your identity and request details, we will begin deletion.</li>
   </ol>
 
-  <h2>3. 削除の実施と期限</h2>
-  <p>原則として<strong>5営業日以内</strong>に、当方が管理する保管先（Google Apps Script プロパティ、Google スプレッドシート、運用ログ等）から該当データを削除します。完了後、メールで通知します。</p>
+  <h2>3. Timeline and Confirmation</h2>
+  <p>
+    We will delete the relevant data from our storage locations (e.g., Google Apps Script Properties, Google Sheets, operational logs) and send a confirmation email, typically within <strong>five business days</strong> of verification.
+  </p>
 
-  <h2>4. Meta からの削除リクエストへの対応</h2>
-  <p>Meta（Threads）側から送信されるアプリ連携解除・データ削除リクエストにも対応します。該当通知を受理した場合、上記と同様の範囲で速やかにデータ削除を行います。</p>
+  <h2>4. Requests from Meta (Threads)</h2>
+  <p>
+    We also act on data deletion or de-authorization requests received via Meta/Threads mechanisms, and will delete relevant data promptly upon such notifications.
+  </p>
 
-  <h2>5. 連携解除の案内（任意）</h2>
-  <p>アプリの利用を停止される場合は、Meta アカウントの設定から本アプリの連携を解除してください。連携解除後も、本ページの手続により当方保有分のデータ削除を依頼できます。</p>
+  <h2>5. Revoking Access</h2>
+  <p>
+    You may revoke the App’s access in your Meta account settings at any time. You can still request deletion of data we control via the steps above.
+  </p>
 
-  <h2>6. お問い合わせ</h2>
-  <p>ご不明点は <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a> へご連絡ください。</p>
-
-  <hr/>
-
-  <h1>Data Deletion (English)</h1>
-  <p>This page explains how to request deletion of your data handled by <strong>{{APP_NAME}}</strong>. Send an email to <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a> with: (1) your Threads username or user ID, (2) the scope of deletion (all data / date range / specific posts), and (3) a reply-to contact for verification. We will delete the relevant data from our storage (e.g., Google Apps Script properties, Google Sheets, operational logs) and notify you upon completion, typically within <strong>five business days</strong>. We also act on deletion requests received from Meta (Threads). You may revoke the app’s access in your Meta account settings at any time.</p>
+  <h2>6. Questions</h2>
+  <p>
+    If you have any questions, please contact <a href="mailto:affi_tanmatsu_52@icloud.com">affi_tanmatsu_52@icloud.com</a>.
+  </p>
 </body>
 </html>
