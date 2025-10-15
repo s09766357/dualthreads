@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>プライバシーポリシー | {{APP_NAME}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{APP_NAME}} のプライバシーポリシー。Threads API を用いた投稿・返信管理・インサイト取得に関するデータ取扱いを明示します。" />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:860px;margin:40px auto;padding:0 16px;line-height:1.7;}
+    h1,h2{line-height:1.3} code,pre{background:#f6f8fa;padding:2px 4px;border-radius:4px}
+    .lang-toggle{margin-top:24px;opacity:.8}
+    hr{margin:28px 0}
+    .meta{font-size:.95em;color:#444}
+  </style>
+</head>
+<body>
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">
+    アプリ名：<strong>{{APP_NAME}}</strong><br/>
+    提供者：<strong>{{OPERATOR_NAME}}</strong>（{{BUSINESS_NAME}}）<br/>
+    連絡先：<a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a><br/>
+    改定日：<time datetime="2025-10-15">2025年10月15日</time>
+  </p>
+
+  <h2>1. 目的</h2>
+  <p>{{APP_NAME}}（以下「本アプリ」）は、Meta Threads API を利用し、<strong>投稿の自動化・返信管理・インサイト取得</strong>を支援します。本ポリシーは、本アプリにおける個人情報および関連データの取扱いを定めるものです。</p>
+
+  <h2>2. 収集・利用するデータ</h2>
+  <ul>
+    <li><strong>コンテンツ情報</strong>：投稿本文、返信本文、コンテンツID、親子関係ID、タイムスタンプ。</li>
+    <li><strong>インサイト/メタデータ</strong>：投稿・ユーザーの指標（例：インプレッション、いいね数、リプライ数、リポスト数、引用数 など）。</li>
+    <li><strong>技術情報</strong>：OAuthトークン（アクセストークン/更新トークン）、実行ログ、エラーログ、IPアドレス等（セキュリティ・運用目的）。</li>
+    <li><strong>運用付帯情報</strong>：スケジュール、下書き内容、紐づくスプレッドシート上のデータ。</li>
+  </ul>
+
+  <h2>3. 利用目的</h2>
+  <ul>
+    <li>Threads への投稿・返信の作成/管理（自動化含む）</li>
+    <li>インサイトの取得・分析・レポーティング</li>
+    <li>品質改善、障害対応、セキュリティ対策、法令・規約遵守</li>
+  </ul>
+
+  <h2>4. 保存期間</h2>
+  <p>データは<strong>運用目的の達成に必要な期間</strong>のみ保持し、不要となった場合は速やかに削除します。標準では<strong>最長12か月</strong>を上限とし、法令によりより長い保存が求められる場合を除きます。</p>
+
+  <h2>5. 第三者提供</h2>
+  <p>本人の同意または法令に基づく場合を除き、<strong>第三者に提供しません</strong>。ただし、運用上の委託先（例：Google Apps Script / Google スプレッドシート / ホスティング等）に対して、機密保持契約等の適切な管理の下で取り扱いを委託することがあります。</p>
+
+  <h2>6. 安全管理措置</h2>
+  <ul>
+    <li>アクセストークンは安全なストレージ（例：GAS プロパティ等）で暗号化もしくはアクセス制御の下に保存</li>
+    <li>最小権限・レート制御・アクセスログの監査</li>
+    <li>通信のHTTPS化、公開鍵ピンニング/検討、依存ライブラリの脆弱性対応</li>
+  </ul>
+
+  <h2>7. ユーザーの権利と手続</h2>
+  <p>本アプリが保持するデータの<strong>開示・訂正・利用停止・削除</strong>を希望される場合、<a href="data-deletion.html">データ削除手順ページ</a>をご参照の上ご連絡ください。合理的な範囲で速やかに対応します。</p>
+
+  <h2>8. 13歳未満の方の利用</h2>
+  <p>本アプリは13歳未満の方を対象としていません。該当するデータの取得が判明した場合、速やかに削除します。</p>
+
+  <h2>9. ポリシーの変更</h2>
+  <p>内容を改定する場合、本ページの改定日を更新して告知します。重要な変更は合理的な方法で周知します。</p>
+
+  <h2>10. 連絡先</h2>
+  <p>ご質問やご要望は <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a> へご連絡ください。</p>
+
+  <hr class="lang-toggle"/>
+
+  <h1>Privacy Policy (English)</h1>
+  <p class="meta">
+    App: <strong>{{APP_NAME}}</strong><br/>
+    Provider: <strong>{{OPERATOR_NAME}}</strong> ({{BUSINESS_NAME}})<br/>
+    Contact: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a><br/>
+    Last updated: <time datetime="2025-10-15">Oct 15, 2025</time>
+  </p>
+  <p>This app uses the Meta Threads API to support automated posting, reply management, and insights retrieval. We collect and use content data (posts/replies and IDs), insights/metrics, technical data (OAuth tokens, logs, IPs), and operational data (schedules, drafts) strictly for the purposes of posting/replying, insights analysis, service improvement, security, and legal compliance. Data is retained only as long as necessary, up to 12 months by default, and is not shared with third parties except entrusted processors (e.g., Google Apps Script/Sheets, hosting) under appropriate safeguards. For access, correction, deletion, or other requests, see the <a href="data-deletion.html">Data Deletion</a> page or contact us at {{CONTACT_EMAIL}}.</p>
+</body>
+</html>
