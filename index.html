@@ -1,79 +1,83 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>プライバシーポリシー | {{APP_NAME}}</title>
+  <title>Privacy Policy | DualThreads</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="{{APP_NAME}} のプライバシーポリシー。Threads API を用いた投稿・返信管理・インサイト取得に関するデータ取扱いを明示します。" />
+  <meta name="description" content="Privacy Policy for DualThreads. This policy explains how the app uses the Meta Threads API for posting, reply management, and insights retrieval." />
   <style>
     body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:860px;margin:40px auto;padding:0 16px;line-height:1.7;}
-    h1,h2{line-height:1.3} code,pre{background:#f6f8fa;padding:2px 4px;border-radius:4px}
-    .lang-toggle{margin-top:24px;opacity:.8}
+    h1,h2{line-height:1.3}
+    code,pre{background:#f6f8fa;padding:2px 4px;border-radius:4px}
     hr{margin:28px 0}
     .meta{font-size:.95em;color:#444}
+    a{word-break:break-all}
   </style>
 </head>
 <body>
-  <h1>プライバシーポリシー</h1>
+  <h1>Privacy Policy</h1>
   <p class="meta">
-    アプリ名：<strong>{{APP_NAME}}</strong><br/>
-    提供者：<strong>{{OPERATOR_NAME}}</strong>（{{BUSINESS_NAME}}）<br/>
-    連絡先：<a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a><br/>
-    改定日：<time datetime="2025-10-15">2025年10月15日</time>
+    App: <strong>DualThreads</strong><br/>
+    Provider: <strong>nakamura yutaka</strong> (nisui)<br/>
+    Contact: <a href="mailto:affi_tanmatsu_52@icloud.com">affi_tanmatsu_52@icloud.com</a><br/>
+    Last updated: <time datetime="2025-10-15">October 15, 2025</time>
   </p>
 
-  <h2>1. 目的</h2>
-  <p>{{APP_NAME}}（以下「本アプリ」）は、Meta Threads API を利用し、<strong>投稿の自動化・返信管理・インサイト取得</strong>を支援します。本ポリシーは、本アプリにおける個人情報および関連データの取扱いを定めるものです。</p>
-
-  <h2>2. 収集・利用するデータ</h2>
-  <ul>
-    <li><strong>コンテンツ情報</strong>：投稿本文、返信本文、コンテンツID、親子関係ID、タイムスタンプ。</li>
-    <li><strong>インサイト/メタデータ</strong>：投稿・ユーザーの指標（例：インプレッション、いいね数、リプライ数、リポスト数、引用数 など）。</li>
-    <li><strong>技術情報</strong>：OAuthトークン（アクセストークン/更新トークン）、実行ログ、エラーログ、IPアドレス等（セキュリティ・運用目的）。</li>
-    <li><strong>運用付帯情報</strong>：スケジュール、下書き内容、紐づくスプレッドシート上のデータ。</li>
-  </ul>
-
-  <h2>3. 利用目的</h2>
-  <ul>
-    <li>Threads への投稿・返信の作成/管理（自動化含む）</li>
-    <li>インサイトの取得・分析・レポーティング</li>
-    <li>品質改善、障害対応、セキュリティ対策、法令・規約遵守</li>
-  </ul>
-
-  <h2>4. 保存期間</h2>
-  <p>データは<strong>運用目的の達成に必要な期間</strong>のみ保持し、不要となった場合は速やかに削除します。標準では<strong>最長12か月</strong>を上限とし、法令によりより長い保存が求められる場合を除きます。</p>
-
-  <h2>5. 第三者提供</h2>
-  <p>本人の同意または法令に基づく場合を除き、<strong>第三者に提供しません</strong>。ただし、運用上の委託先（例：Google Apps Script / Google スプレッドシート / ホスティング等）に対して、機密保持契約等の適切な管理の下で取り扱いを委託することがあります。</p>
-
-  <h2>6. 安全管理措置</h2>
-  <ul>
-    <li>アクセストークンは安全なストレージ（例：GAS プロパティ等）で暗号化もしくはアクセス制御の下に保存</li>
-    <li>最小権限・レート制御・アクセスログの監査</li>
-    <li>通信のHTTPS化、公開鍵ピンニング/検討、依存ライブラリの脆弱性対応</li>
-  </ul>
-
-  <h2>7. ユーザーの権利と手続</h2>
-  <p>本アプリが保持するデータの<strong>開示・訂正・利用停止・削除</strong>を希望される場合、<a href="data-deletion.html">データ削除手順ページ</a>をご参照の上ご連絡ください。合理的な範囲で速やかに対応します。</p>
-
-  <h2>8. 13歳未満の方の利用</h2>
-  <p>本アプリは13歳未満の方を対象としていません。該当するデータの取得が判明した場合、速やかに削除します。</p>
-
-  <h2>9. ポリシーの変更</h2>
-  <p>内容を改定する場合、本ページの改定日を更新して告知します。重要な変更は合理的な方法で周知します。</p>
-
-  <h2>10. 連絡先</h2>
-  <p>ご質問やご要望は <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a> へご連絡ください。</p>
-
-  <hr class="lang-toggle"/>
-
-  <h1>Privacy Policy (English)</h1>
-  <p class="meta">
-    App: <strong>{{APP_NAME}}</strong><br/>
-    Provider: <strong>{{OPERATOR_NAME}}</strong> ({{BUSINESS_NAME}})<br/>
-    Contact: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a><br/>
-    Last updated: <time datetime="2025-10-15">Oct 15, 2025</time>
+  <h2>1. Purpose</h2>
+  <p>
+    DualThreads (the “App”) uses the Meta Threads API to support <strong>automated posting, reply management, and insights retrieval</strong> for the operator’s Threads account(s). This Privacy Policy explains how data is collected, used, stored, and protected by the App.
   </p>
-  <p>This app uses the Meta Threads API to support automated posting, reply management, and insights retrieval. We collect and use content data (posts/replies and IDs), insights/metrics, technical data (OAuth tokens, logs, IPs), and operational data (schedules, drafts) strictly for the purposes of posting/replying, insights analysis, service improvement, security, and legal compliance. Data is retained only as long as necessary, up to 12 months by default, and is not shared with third parties except entrusted processors (e.g., Google Apps Script/Sheets, hosting) under appropriate safeguards. For access, correction, deletion, or other requests, see the <a href="data-deletion.html">Data Deletion</a> page or contact us at {{CONTACT_EMAIL}}.</p>
+
+  <h2>2. Data We Collect and Handle</h2>
+  <ul>
+    <li><strong>Content Data</strong>: post text, reply text, content IDs, parent/child relation IDs, timestamps.</li>
+    <li><strong>Insights / Metrics</strong>: impressions, likes, replies, reposts, quotes, and other analytics available via the Threads API.</li>
+    <li><strong>Technical Data</strong>: OAuth access/refresh tokens, execution and error logs, IP address, and similar data processed for security and operation.</li>
+    <li><strong>Operational Data</strong>: posting schedules, drafts, and data stored in connected tools (e.g., Google Sheets) for operation of the App.</li>
+  </ul>
+
+  <h2>3. How We Use the Data</h2>
+  <ul>
+    <li>Create and manage posts and replies on Threads (including automation).</li>
+    <li>Retrieve and analyze insights for operational reporting and performance measurement.</li>
+    <li>Improve service quality, troubleshoot issues, ensure security, and comply with applicable laws and platform policies.</li>
+  </ul>
+
+  <h2>4. Retention</h2>
+  <p>
+    We retain data only for as long as necessary to fulfill the purposes above. By default, we keep data for up to <strong>12 months</strong>, unless a longer period is required by law or legitimate record-keeping obligations. Data that is no longer needed will be deleted without undue delay.
+  </p>
+
+  <h2>5. Sharing and Disclosure</h2>
+  <p>
+    We do <strong>not</strong> sell or share personal data with third parties, except with trusted processors necessary to operate the App (e.g., Google Apps Script / Google Sheets, hosting providers). Such processors handle data under appropriate confidentiality and security obligations. We may also disclose information if required by law or to protect rights, safety, or security.
+  </p>
+
+  <h2>6. Security</h2>
+  <ul>
+    <li>Access tokens are stored in secure storage under access control (e.g., Google Apps Script Properties).</li>
+    <li>Principle of least privilege, rate limiting, and audit of access/activity logs.</li>
+    <li>Transport security via HTTPS and timely remediation of known vulnerabilities in dependencies.</li>
+  </ul>
+
+  <h2>7. Your Rights</h2>
+  <p>
+    You may request <strong>access, correction, restriction, or deletion</strong> of data that the App controls. Please see our <a href="./data-deletion.html">Data Deletion</a> page for the procedure. We will respond within a reasonable time and in accordance with applicable law and platform rules.
+  </p>
+
+  <h2>8. Children</h2>
+  <p>
+    The App is not intended for use by children under the age of 13. If we learn that such data has been inadvertently processed, we will delete it promptly.
+  </p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>
+    We may update this Policy from time to time. When we do, we will revise the “Last updated” date above. Material changes will be communicated by reasonable means.
+  </p>
+
+  <h2>10. Contact</h2>
+  <p>
+    Questions or requests may be sent to <a href="mailto:affi_tanmatsu_52@icloud.com">affi_tanmatsu_52@icloud.com</a>.
+  </p>
 </body>
 </html>
